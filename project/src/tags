@@ -1,0 +1,92 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CentrifugationInput	CentrifugationInput.java	/^public class CentrifugationInput {$/;"	c
+CentrifugationStep	CentrifugationStep.java	/^public class CentrifugationStep {$/;"	c
+CentrifugationStrategy	CentrifugationStrategy.java	/^public class CentrifugationStrategy {$/;"	c
+Main	Main.java	/^public class Main {$/;"	c
+MixtureElement	MixtureElement.java	/^public class MixtureElement {$/;"	c
+Pipette	Pipette.java	/^public class Pipette {$/;"	c
+TestTube	TestTube.java	/^public class TestTube {$/;"	c
+blowLimit	CentrifugationInput.java	/^	private int blowLimit;$/;"	f	class:CentrifugationInput	file:
+calculateEfforts	CentrifugationInput.java	/^	private double calculateEfforts(int j) {$/;"	m	class:CentrifugationInput	file:
+density	MixtureElement.java	/^	float density;$/;"	f	class:MixtureElement
+display	CentrifugationStrategy.java	/^	public static void display(List<CentrifugationStep> result) {$/;"	m	class:CentrifugationStrategy
+doCentrifugation	CentrifugationStrategy.java	/^	public static void doCentrifugation(CentrifugationInput input, List<CentrifugationStep> result) {$/;"	m	class:CentrifugationStrategy
+elementSeparated	CentrifugationStep.java	/^	private String elementSeparated;$/;"	f	class:CentrifugationStep	file:
+elementToSeparate	CentrifugationInput.java	/^	private MixtureElement elementToSeparate;$/;"	f	class:CentrifugationInput	file:
+equals	MixtureElement.java	/^	public boolean equals(MixtureElement e) {$/;"	m	class:MixtureElement
+getBlowLimit	CentrifugationInput.java	/^        public int getBlowLimit() {$/;"	m	class:CentrifugationInput
+getCurrentMixtureState	CentrifugationInput.java	/^	public List<MixtureElement> getCurrentMixtureState() {$/;"	m	class:CentrifugationInput
+getDensity	MixtureElement.java	/^	public float getDensity() {$/;"	m	class:MixtureElement
+getElementSeparated	CentrifugationStep.java	/^	public String getElementSeparated() {$/;"	m	class:CentrifugationStep
+getElementToSeparate	CentrifugationInput.java	/^	public MixtureElement getElementToSeparate() {$/;"	m	class:CentrifugationInput
+getHeight	Pipette.java	/^	public float getHeight() {$/;"	m	class:Pipette
+getHeight	TestTube.java	/^	public float getHeight() {$/;"	m	class:TestTube
+getMaxHeight	CentrifugationInput.java	/^        public int getMaxHeight() {$/;"	m	class:CentrifugationInput
+getMessage	CentrifugationStep.java	/^        public String getMessage() {$/;"	m	class:CentrifugationStep
+getMixtureElementByName	CentrifugationInput.java	/^        public MixtureElement getMixtureElementByName(String eName) {$/;"	m	class:CentrifugationInput
+getMixtureElementWithMinDensity	CentrifugationInput.java	/^       public MixtureElement getMixtureElementWithMinDensity() {$/;"	m	class:CentrifugationInput
+getMixtureElements	CentrifugationInput.java	/^	public List<MixtureElement> getMixtureElements() {$/;"	m	class:CentrifugationInput
+getMixtureState	CentrifugationStep.java	/^        public List<MixtureElement> getMixtureState() {$/;"	m	class:CentrifugationStep
+getName	MixtureElement.java	/^	public String getName() {$/;"	m	class:MixtureElement
+getParticleDiameter	MixtureElement.java	/^        public float getParticleDiameter() {$/;"	m	class:MixtureElement
+getPercentageSeparated	CentrifugationStep.java	/^        public float getPercentageSeparated() {$/;"	m	class:CentrifugationStep
+getPercentageSeparated	MixtureElement.java	/^        public float getPercentageSeparated() {$/;"	m	class:MixtureElement
+getPurityPercentage	CentrifugationInput.java	/^	public float getPurityPercentage() {$/;"	m	class:CentrifugationInput
+getRadius	CentrifugationStep.java	/^	public float getRadius() {$/;"	m	class:CentrifugationStep
+getRadius	Pipette.java	/^	public float getRadius() {$/;"	m	class:Pipette
+getRadius	TestTube.java	/^	public float getRadius() {$/;"	m	class:TestTube
+getRatio	CentrifugationInput.java	/^        public float getRatio(MixtureElement topElement) {$/;"	m	class:CentrifugationInput
+getSpeed	CentrifugationStep.java	/^        public int getSpeed() {$/;"	m	class:CentrifugationStep
+getTime	CentrifugationInput.java	/^	public double getTime() {$/;"	m	class:CentrifugationInput
+getTime	CentrifugationStep.java	/^        public int getTime() {$/;"	m	class:CentrifugationStep
+getTotalVolume	CentrifugationInput.java	/^        public float getTotalVolume() {$/;"	m	class:CentrifugationInput
+getViscosity	MixtureElement.java	/^        public float getViscosity() {$/;"	m	class:MixtureElement
+getVolume	MixtureElement.java	/^	public float getVolume() {$/;"	m	class:MixtureElement
+height	Pipette.java	/^	float height;$/;"	f	class:Pipette
+height	TestTube.java	/^	float height;$/;"	f	class:TestTube
+inputDisplay	CentrifugationInput.java	/^        public void inputDisplay() {$/;"	m	class:CentrifugationInput
+main	Main.java	/^	public static void main(String args[]) throws NumberFormatException,$/;"	m	class:Main
+maxHeight	CentrifugationInput.java	/^	private int maxHeight;$/;"	f	class:CentrifugationInput	file:
+message	CentrifugationStep.java	/^	private String message;$/;"	f	class:CentrifugationStep	file:
+mixtureElements	CentrifugationInput.java	/^	private List<MixtureElement> mixtureElements;$/;"	f	class:CentrifugationInput	file:
+mixtureState	CentrifugationStep.java	/^	private List<MixtureElement> mixtureState;$/;"	f	class:CentrifugationStep	file:
+name	MixtureElement.java	/^	String name;$/;"	f	class:MixtureElement
+particleDiameter	MixtureElement.java	/^	float particleDiameter;$/;"	f	class:MixtureElement
+percentageSeparated	CentrifugationStep.java	/^	private float percentageSeparated;$/;"	f	class:CentrifugationStep	file:
+percentageSeparated	MixtureElement.java	/^	float percentageSeparated;$/;"	f	class:MixtureElement
+purityPercentage	CentrifugationInput.java	/^	private float purityPercentage;$/;"	f	class:CentrifugationInput	file:
+radius	CentrifugationStep.java	/^	private float radius;$/;"	f	class:CentrifugationStep	file:
+radius	Pipette.java	/^	float radius;$/;"	f	class:Pipette
+radius	TestTube.java	/^	float radius;$/;"	f	class:TestTube
+setBlowLimit	CentrifugationInput.java	/^        public void setBlowLimit(int blowLimit) {$/;"	m	class:CentrifugationInput
+setDensity	MixtureElement.java	/^	public void setDensity(float density) {$/;"	m	class:MixtureElement
+setElementSeparated	CentrifugationStep.java	/^	public void setElementSeparated(String elementSeparated) {$/;"	m	class:CentrifugationStep
+setElementToSeparate	CentrifugationInput.java	/^	public void setElementToSeparate(MixtureElement elementToSeparate) {$/;"	m	class:CentrifugationInput
+setHeight	Pipette.java	/^	public void setHeight(float height) {$/;"	m	class:Pipette
+setHeight	TestTube.java	/^	public void setHeight(float height) {$/;"	m	class:TestTube
+setMaxHeight	CentrifugationInput.java	/^        public void setMaxHeight(int maxHeight) {$/;"	m	class:CentrifugationInput
+setMessage	CentrifugationStep.java	/^        public void setMessage(String message) {$/;"	m	class:CentrifugationStep
+setMixtureElements	CentrifugationInput.java	/^	public void setMixtureElements(List<MixtureElement> mixtureElement) {$/;"	m	class:CentrifugationInput
+setMixtureState	CentrifugationStep.java	/^	public void setMixtureState(List<MixtureElement> mixtureState) {$/;"	m	class:CentrifugationStep
+setName	MixtureElement.java	/^	public void setName(String name) {$/;"	m	class:MixtureElement
+setParticleDiameter	MixtureElement.java	/^        public void setParticleDiameter(float particleDiameter) {$/;"	m	class:MixtureElement
+setPercentageSeparated	CentrifugationStep.java	/^        public void setPercentageSeparated(float percentageSeparated) {$/;"	m	class:CentrifugationStep
+setPercentageSeparated	MixtureElement.java	/^        public void setPercentageSeparated(float percentageSeparated) {$/;"	m	class:MixtureElement
+setPurityPercentage	CentrifugationInput.java	/^	public void setPurityPercentage(float purityPercentage) {$/;"	m	class:CentrifugationInput
+setRadius	CentrifugationStep.java	/^	public void setRadius(float radius) {$/;"	m	class:CentrifugationStep
+setRadius	Pipette.java	/^	public void setRadius(float radius) {$/;"	m	class:Pipette
+setRadius	TestTube.java	/^	public void setRadius(float radius) {$/;"	m	class:TestTube
+setSpeed	CentrifugationStep.java	/^        public void setSpeed(int speed) {$/;"	m	class:CentrifugationStep
+setTime	CentrifugationStep.java	/^        public void setTime(int time) {$/;"	m	class:CentrifugationStep
+setViscosity	MixtureElement.java	/^        public void setViscosity(float viscosity) {$/;"	m	class:MixtureElement
+setVolume	MixtureElement.java	/^	public void setVolume(float volume) {$/;"	m	class:MixtureElement
+speed	CentrifugationStep.java	/^	private int speed;$/;"	f	class:CentrifugationStep	file:
+speeds	CentrifugationStrategy.java	/^        private static int[] speeds = {500, 1000, 2000, 5000, 10000};$/;"	f	class:CentrifugationStrategy	file:
+time	CentrifugationStep.java	/^	private int time;$/;"	f	class:CentrifugationStep	file:
+viscosity	MixtureElement.java	/^	float viscosity;$/;"	f	class:MixtureElement
+volume	MixtureElement.java	/^	float volume;$/;"	f	class:MixtureElement
